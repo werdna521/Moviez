@@ -1,0 +1,59 @@
+@media (min-width: 1024px) {
+    .movie-headline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .movie-headline-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-headline-title {
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 48px;
+        color: whitesmoke;
+    }
+
+    .movie-headline-img {
+        margin-top: 24px;
+        width: 30vw;
+    }
+
+    .movie-headline-caption {
+        font-family: 'Cabin', sans-serif;
+        font-size: 24px;
+        color: whitesmoke;
+    }
+}
+
+@media (max-width: 1023px) {
+    .movie-headline {
+        margin-top: 32px;
+    }
+
+    .movie-headline-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-headline-title {
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 32px;
+        color: whitesmoke;
+    }
+
+    .movie-headline-img {
+        margin-top: 24px;
+        width: 70vw;
+    }
+
+    .movie-headline-caption {
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        color: whitesmoke;
+    }
+}

@@ -1,0 +1,46 @@
+@media (min-width: 1024px) {
+    .movie-list-grid {
+        width: 90vw;
+        display: grid;
+        grid-gap: 32px;
+        margin-top: 40px;
+    }
+
+    .movie-list-buttons {
+        margin-top: 32px;
+        width: 100%;
+    }
+
+    .movie-list-pagination {
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        color: whitesmoke;
+    }
+}
+
+@media (max-width: 1023px) {
+    .movie-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-list-grid {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .movie-list-buttons {
+        margin-top: 32px;
+    }
+
+    .movie-list-pagination {
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        color: whitesmoke;
+        text-align: center;
+    }
+}

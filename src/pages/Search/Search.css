@@ -1,0 +1,32 @@
+@media (min-width: 1024px) {
+    .movie-search-header {
+        font-family: 'Sniglet', cursive;
+        font-size: 32px;
+        font-weight: 700;
+        color: whitesmoke;
+        text-transform: uppercase;
+        margin-top: 24px;
+    }
+
+    .movie-search-img {
+        width: 30vw;
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .movie-search-header {
+        font-family: 'Sniglet', cursive;
+        font-size: 32px;
+        font-weight: 700;
+        color: whitesmoke;
+        text-transform: uppercase;
+        margin-top: 24px;
+    }
+
+    .movie-search-img {
+        width: 70vw;
+        margin-top: 24px;
+        text-align: center;
+    }
+}

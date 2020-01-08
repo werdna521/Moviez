@@ -1,0 +1,88 @@
+@media (min-width: 1024px) {
+    .movie-details-card {
+        display: flex;
+        width: 90%;
+    }
+
+    .movie-details-card-img {
+        height: 80vh;
+    }
+
+    .movie-details-card-container {
+        margin-left: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .movie-details-card-title {
+        font-family: 'Cabin', sans-serif;
+        font-size: 40px;
+        color: whitesmoke;
+        margin-bottom: 24px;
+    }
+
+    .movie-details-card-italic {
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        color: whitesmoke;
+    }
+
+    .movie-details-card-regular {
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        color: whitesmoke;
+    }
+
+    .movie-details-card-overview {
+        margin-top: 24px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+}
+
+@media (max-width: 1023px) {
+    .movie-details-card {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .movie-details-card-img {
+        width: 90vw;
+    }
+
+    .movie-details-card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .movie-details-card-title {
+        font-family: 'Cabin', sans-serif;
+        font-size: 32px;
+        color: whitesmoke;
+        margin-bottom: 24px;
+    }
+
+    .movie-details-card-italic {
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        color: whitesmoke;
+    }
+
+    .movie-details-card-regular {
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        color: whitesmoke;
+    }
+
+    .movie-details-card-overview {
+        margin-top: 24px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+}

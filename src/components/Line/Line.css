@@ -1,0 +1,7 @@
+.movie-line {
+    height: 2px;
+    background-color: whitesmoke;
+    width: 95vw;
+    border: 0;
+    margin: 32px 2.5vw;
+}

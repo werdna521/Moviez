@@ -1,11 +1,17 @@
 import React from 'react';
-import NavBar from '../../components/NavBar/NavBar';
+import Headline from '../../components/Headline/Headline';
+import Content from '../../components/Content/Content';
+import Line from '../../components/Line/Line';
+import FeatureList from '../../components/FeatureList/FeatureList';
 
-const Home = () => {
+const Home = (props) => {
+
     return (
-        <React.Fragment>
-            <NavBar />
-        </React.Fragment>
+        <Content>
+            <Headline history={props.history} />
+            <Line />
+            <FeatureList />
+        </Content>
     );
 };
 

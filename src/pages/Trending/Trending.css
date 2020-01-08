@@ -1,0 +1,9 @@
+.movie-trending-header {
+    font-family: 'Sniglet', cursive;
+    font-size: 32px;
+    font-weight: 700;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-top: 24px;
+    text-align: center;
+}

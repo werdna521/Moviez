@@ -1,0 +1,72 @@
+@media (min-width: 1024px) {
+    .movie-card {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+
+    .movie-card-img {
+        width: 250px;
+        height: 375px;
+    }
+
+    .movie-card-title {
+        font-family: 'Cabin', sans-serif;
+        color: whitesmoke;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .movie-card-date {
+        font-family: 'Cabin', sans-serif;
+        color: whitesmoke;
+        font-size: 12px;
+        font-style: italic;
+        text-align: right;
+    }
+
+    .movie-card-rating {
+        font-family: 'Cabin', sans-serif;
+        color: whitesmoke;
+        font-size: 12px;
+        font-style: italic;
+        text-align: right;
+    }
+}
+
+@media (max-width: 1023px) {
+    .movie-card {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        margin-bottom: 40px;
+    }
+
+    .movie-card-img {
+        width: 250px;
+        height: 375px;
+    }
+
+    .movie-card-title {
+        font-family: 'Cabin', sans-serif;
+        color: whitesmoke;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .movie-card-date {
+        font-family: 'Cabin', sans-serif;
+        color: whitesmoke;
+        font-size: 12px;
+        font-style: italic;
+        text-align: right;
+    }
+
+    .movie-card-rating {
+        font-family: 'Cabin', sans-serif;
+        color: whitesmoke;
+        font-size: 12px;
+        font-style: italic;
+        text-align: right;
+    }
+}

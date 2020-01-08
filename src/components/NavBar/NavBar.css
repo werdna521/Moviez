@@ -1,36 +1,76 @@
-@import url('https://fonts.googleapis.com/css?family=Alata|Luckiest+Guy&display=swap');
+@media (min-width: 1024px) {
+    .movie-nav {
+        background-color: var(--darkest-blue);
+        position: fixed;
+        top: 0;
+        width: 95%;
+        padding: 16px 2.5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: whitesmoke;
+        box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
 
-.movie-nav {
-    background-color: black;
-    position: fixed;
-    top: 0;
-    width: 95vw;
-    padding: 16px 2.5vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: whitesmoke;
-    box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.1);
+    .movie-nav-logo {
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 40px;
+    }
+
+    .movie-nav-menu-container {
+        display: flex;
+        font-family: 'Cabin', sans-serif;
+    }
+
+    .movie-nav-menu {
+        font-size: 20px;
+        color: whitesmoke;
+        text-decoration: none;
+        margin: 0 16px;
+        outline: none;
+    }
+
+    .movie-nav-menu:hover, .movie-nav-menu-active {
+        border-bottom: 2px solid whitesmoke;
+    }
 }
 
-.movie-nav-logo {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 40px;
-}
+@media (max-width: 1023px) {
+    .movie-nav {
+        background-color: var(--darkest-blue);
+        width: 95%;
+        padding: 16px 2.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: whitesmoke;
+        box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
 
-.movie-nav-menu-container {
-    display: flex;
-    font-family: 'Alata', sans-serif;
-}
+    .movie-nav-logo {
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 40px;
+    }
 
-.movie-nav-menu {
-    font-size: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-    margin: 0 8px;
-}
+    .movie-nav-menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Cabin', sans-serif;
+    }
 
-.movie-nav-menu:hover, .movie-nav-menu-active {
-    border-bottom: 2px solid whitesmoke;
+    .movie-nav-menu {
+        font-size: 20px;
+        color: whitesmoke;
+        text-decoration: none;
+        margin: 16px 0;
+        outline: none;
+    }
+
+    .movie-nav-menu:hover, .movie-nav-menu-active {
+        border-bottom: 2px solid whitesmoke;
+    }
 }

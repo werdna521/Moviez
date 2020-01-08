@@ -1,0 +1,35 @@
+@media (min-width: 1024px) {
+    .movie-search-bar {
+        display: flex;
+    }
+
+    .movie-search-bar-input {
+        border: none;
+        outline: none;
+        width: 40vw;
+        border-bottom: 4px solid whitesmoke;
+        background-color: transparent;
+        color: whitesmoke;
+        padding: 8px 0;
+        font-family: 'Cabin', sans-serif;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .movie-search-bar {
+        display: flex;
+    }
+
+    .movie-search-bar-input {
+        border: none;
+        outline: none;
+        width: 50vw;
+        border-bottom: 2px solid whitesmoke;
+        background-color: transparent;
+        color: whitesmoke;
+        padding: 2px 0;
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+    }
+}

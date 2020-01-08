@@ -12,18 +12,22 @@ const links = [
         label: 'Search'
     },
     {
-        url : '/login',
-        label: 'Login'
+        url : '/trending',
+        label: 'Trending'
     },
     {
-        url : '/signup',
-        label: 'Sign Up'
+        url : '/upcoming',
+        label: 'Upcoming'
+    },
+    {
+        url : '/popular',
+        label: 'Popular'
     }
 ];
 
 const NavBar = () => {
     const navlinks = links.map(({ url, label }) => (
-        <NavLink 
+        <NavLink
             key={label}
             className="movie-nav-menu"
             activeClassName="movie-nav-menu-active"
