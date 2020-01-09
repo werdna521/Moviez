@@ -4,7 +4,7 @@ import './Button.css';
 const Button = ({ label, type, style, onClick }) => {
 
     const handleClick = () => {
-        onClick();
+        if (onClick) onClick();
     };
 
     return (

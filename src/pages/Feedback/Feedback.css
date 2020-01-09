@@ -1,0 +1,117 @@
+@media (min-width: 1024px) {
+    .movie-feedback-container {
+        height: 70vh;
+        display: flex;
+        width: 90vw;
+        align-items: center;
+    }
+
+    .movie-feedback-img {
+        width: 35vw;
+    }
+
+    .movie-feedback-form {
+        width: 50vw;
+        margin-left: 5vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .movie-feedback-title {
+        font-family: 'Sniglet', cursive;
+        font-size: 32px;
+        font-weight: 700;
+        color: whitesmoke;
+        text-transform: uppercase;
+        margin-bottom: 48px;
+    }
+
+    .movie-feedback-input {
+        margin-top: 16px;
+        border: none;
+        outline: none;
+        width: 45vw;
+        border-bottom: 2px solid whitesmoke;
+        border-right: 2px solid whitesmoke;
+        background-color: transparent;
+        color: whitesmoke;
+        padding: 8px 16px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 24px;
+    }
+
+    .movie-feedback-text-area {
+        margin-top: 16px;
+        border: none;
+        outline: none;
+        width: 45vw;
+        resize: none;
+        border-bottom: 2px solid whitesmoke;
+        border-right: 2px solid whitesmoke;
+        background-color: transparent;
+        color: whitesmoke;
+        padding: 8px 16px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .movie-feedback-container {
+        margin-top: 56px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95vw;
+    }
+
+    .movie-feedback-img {
+        width: 70vw;
+    }
+
+    .movie-feedback-form {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-feedback-title {
+        font-family: 'Sniglet', cursive;
+        font-size: 24px;
+        font-weight: 700;
+        color: whitesmoke;
+        text-transform: uppercase;
+        margin: 16px 0 0 8px;
+        text-align: center;
+    }
+
+    .movie-feedback-input {
+        margin-top: 16px;
+        border: none;
+        outline: none;
+        width: 80vw;
+        border-bottom: 2px solid whitesmoke;
+        border-right: 2px solid whitesmoke;
+        background-color: transparent;
+        color: whitesmoke;
+        padding: 8px 16px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+    }
+
+    .movie-feedback-text-area {
+        margin-top: 16px;
+        border: none;
+        outline: none;
+        width: 80vw;
+        resize: none;
+        border-bottom: 2px solid whitesmoke;
+        border-right: 2px solid whitesmoke;
+        background-color: transparent;
+        color: whitesmoke;
+        padding: 8px 16px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+    }
+}

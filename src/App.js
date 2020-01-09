@@ -6,6 +6,7 @@ import Details from './pages/Details/Details';
 import Trending from './pages/Trending/Trending';
 import Upcoming from './pages/Upcoming/Upcoming';
 import Popular from './pages/Popular/Popular';
+import Feedback from './pages/Feedback/Feedback';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import './main.css';
@@ -22,6 +23,7 @@ class App extends React.Component {
                     <Route path="/trending" component={Trending} />
                     <Route path='/upcoming' component={Upcoming} />
                     <Route path="/popular" component={Popular} />
+                    <Route path='/feedback' component={Feedback} />
                     <Route path="/" exact component={Home} />
                     <Footer />
                 </BrowserRouter>

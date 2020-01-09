@@ -8,6 +8,9 @@ const Home = (props) => {
 
     return (
         <Content>
+            <audio loop controls autoPlay>
+                <source src={require('../../assets/audio/goodmorning.mp3')} type="audio/mpeg" />
+            </audio>
             <Headline history={props.history} />
             <Line />
             <FeatureList />

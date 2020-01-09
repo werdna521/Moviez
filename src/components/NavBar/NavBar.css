@@ -35,6 +35,14 @@
     .movie-nav-menu:hover, .movie-nav-menu-active {
         border-bottom: 2px solid whitesmoke;
     }
+
+    .hamburger {
+        display: none;
+    }
+
+    .hamburger-container {
+        display: none;
+    }
 }
 
 @media (max-width: 1023px) {
@@ -56,7 +64,7 @@
     }
 
     .movie-nav-menu-container {
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         font-family: 'Cabin', sans-serif;
@@ -72,5 +80,17 @@
 
     .movie-nav-menu:hover, .movie-nav-menu-active {
         border-bottom: 2px solid whitesmoke;
+    }
+
+    .hamburger {
+        font-size: 40px;
+        color: whitesmoke;
+        z-index: 10;
+    }
+
+    .hamburger-container {
+        position: absolute;
+        top: 16px;
+        right: 16px;
     }
 }
